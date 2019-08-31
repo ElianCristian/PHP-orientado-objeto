@@ -1,10 +1,9 @@
 <?php
-
 class Pessoa {
-	//public
+//public
 	//private
 	//protect
-	private $nome;
+	public $nome;
 
 	public function __construct($recebeNome){
 		$this->nome = $recebeNome;
@@ -16,5 +15,4 @@ class Pessoa {
 	public function getNome(){
 		return $this->nome;
 	}
-	
 }
