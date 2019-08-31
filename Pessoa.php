@@ -1,7 +1,6 @@
 <?php
 
-class Pessoa {
-	//public
+//public
 	//private
 	//protect
 	private $nome;
@@ -12,5 +11,4 @@ class Pessoa {
 	public function getNome(){
 		return $this->nome;
 	}
-	
 }
