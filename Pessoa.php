@@ -1,17 +1,14 @@
 <?php
 
-class Pessoa {
-	public $nome;
-	public $idade;
-	public $altura;
+//public
+	//private
+	//protect
+	private $nome;
 
-	public function falarNome(){
-		echo $this->nome;
+	public function setNome($novoNome){
+		$this->nome = $novoNome;
 	}
-	public function falarIdade(){
-		echo $this->idade;
-	}
-	public function falarAltura(){
-		echo $this->altura;
+	public function getNome(){
+		return $this->nome;
 	}
 }
