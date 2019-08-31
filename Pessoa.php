@@ -6,6 +6,10 @@ class Pessoa {
 	//protect
 	private $nome;
 
+	public function __construct($recebeNome){
+		$this->nome = $recebeNome;
+	}
+
 	public function setNome($novoNome){
 		$this->nome = $novoNome;
 	}

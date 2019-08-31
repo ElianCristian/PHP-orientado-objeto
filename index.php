@@ -2,7 +2,7 @@
 
 require "Pessoa.php";
 
-$uma_pessoa = new Pessoa;
+$uma_pessoa = new Pessoa("Elian Cristian dos Reis Martins");
 
-$uma_pessoa->setNome("Elian Cristian");
+
 echo $uma_pessoa->getNome();
