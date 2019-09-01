@@ -1,8 +1,10 @@
 <?php
 
 require "Pessoa.php";
+require "Programador.php";
 
-$uma_pessoa = new Pessoa("Elian Cristian dos Reis");
+$programador = new Programador("Elian Cristian", "PHP");
 
 
-echo $uma_pessoa->getNome();
+echo $programador->getNome()."</br></br>";
+echo $programador->getLinguagem();
