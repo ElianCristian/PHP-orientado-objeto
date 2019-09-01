@@ -5,6 +5,8 @@ class Pessoa {
 	//protect
 	public $nome;
 
+	const ESPECIE = "Humana";
+
 	public function __construct($recebeNome){
 		$this->nome = $recebeNome;
 	}
